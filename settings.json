@@ -1,0 +1,55 @@
+{
+    "controls": {
+        "left": "LEFT",
+        "right": "RIGHT",
+        "down": "DOWN",
+        "rotate": "UP",
+        "pause": "P",
+        "hard_drop": "RIGHT CTRL",
+        "hold": "RIGHT SHIFT",
+        "skip_track": "X"
+    },
+    "controller_controls": {
+        "left": 14,
+        "right": 15,
+        "down": 13,
+        "rotate": 0,
+        "hard_drop": 1,
+        "hold": 2,
+        "pause": 3,
+        "skip_track": 4
+    },
+    "controller_menu_navigation": {
+        "up": 11,
+        "down": 12,
+        "select": 0,
+        "back": 1
+    },
+    "controller_settings": {
+        "analog_threshold": 0.5,
+        "joy_delay": 150,
+        "hat_threshold": 0.5
+    },
+    "difficulty": "normal",
+    "flame_trails": true,
+    "effect": "water",
+    "grid_color": [
+        200,
+        200,
+        200
+    ],
+    "grid_opacity": 64,
+    "grid_lines": true,
+    "ghost_piece": true,
+    "ghost_opacity": 80,
+    "screen_shake": true,
+    "particle_density": "high",
+    "das": 150,
+    "arr": 50,
+    "background": "none",
+    "music_enabled": true,
+    "use_custom_music": false,
+    "music_directory": "",
+    "theme": 0,
+    "gravity_multiplier": 1.0
+}
