@@ -1,3 +1,5 @@
+<img width="814" height="990" alt="Screenshot from 2026-06-18 01-22-30" src="https://github.com/user-attachments/assets/ff37cf4c-26fd-4e7f-8100-442b038f05b0" />
+
 # TetraFusion
 
 A feature-rich Tetris game built with **Python 3** and **Pygame**.  
