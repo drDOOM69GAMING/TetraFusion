@@ -92,4 +92,4 @@ python TetraFusion_2.1.py
 
 ## License
 
-MIT
+[MIT](LICENSE)
