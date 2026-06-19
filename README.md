@@ -1,6 +1,4 @@
-<img width="814" height="990" alt="Screenshot from 2026-06-18 01-22-30" src="https://github.com/user-attachments/assets/ff37cf4c-26fd-4e7f-8100-442b038f05b0" />
-
-# TetraFusion
+# TetraFusion 2.1
 
 A feature-rich Tetris game built with **Python 3** and **Pygame**.  
 Created by **drDOOM69GAMING**.
@@ -10,11 +8,11 @@ Created by **drDOOM69GAMING**.
 Grab the latest **AppImage** from [Releases](https://github.com/drDOOM69GAMING/TetraFusion/releases) — no install required, just run it.
 
 ```bash
-chmod +x TetraFusion-2.0-x86_64.AppImage
-./TetraFusion-2.0-x86_64.AppImage
+chmod +x TetraFusion-2.1-x86_64.AppImage
+./TetraFusion-2.1-x86_64.AppImage
 ```
 
-Settings and high scores are saved to `~/.tetrafusion/`.
+Settings are saved to `settings.json` next to the script (or AppImage).
 
 ## Features
 
@@ -39,21 +37,26 @@ Settings and high scores are saved to `~/.tetrafusion/`.
 
 | Action | Keyboard | Mouse |
 |--------|----------|-------|
-| Move Left / Right | Arrow Keys | Hover over board column |
-| Soft Drop | Down Arrow | Scroll Wheel |
-| Hard Drop | Space | Left-Click |
-| Rotate | Up Arrow | Right-Click |
-| Hold | C | Middle-Click |
+| Move Left / Right | Arrow Keys / A / D | Hover over board column |
+| Soft Drop | Down Arrow / S | Scroll Wheel |
+| Hard Drop | Space / Right Ctrl | Left-Click |
+| Rotate | Up Arrow / W | Right-Click |
+| Hold | C / Right Shift | Middle-Click |
 | Pause | P | — |
+| Skip Track | X | — |
 | Fullscreen Toggle | F4 | — |
 
-Controller support is also available with fully rebindable buttons.
+All keyboard controls and controller buttons are fully rebindable in the Options menu.
 
 ### Visuals
+- **3D Gradient Blocks** — Glossy, shaded blocks with edge highlights instead of flat isometric style.
+- **Level Tinting** — Block colors shift subtly with each level.
+- **Evil Face Easter Egg** — A glitchy pixel face appears during every 4th level transition.
 - **Themes** — Default, Retro, Dark, Pastel, 3 colorblind palettes.
 - **Backgrounds** — Auto (10+ procedural patterns), Stars, Gradient, Checker, Waves, Aurora, None.
 - **Particle Effects** — Flame, Wind, Water, Ice, Flicker, Matrix, None.
 - **Particle Density** — Low / Medium / High.
+- **Colored Line Clear Explosions** — Particles match the cleared block colors.
 - **Screen Shake** — Toggle on/off.
 - **Ghost Piece Opacity** — Adjustable slider.
 - **DAS / ARR** — Adjustable timing presets.
@@ -69,11 +72,22 @@ Controller support is also available with fully rebindable buttons.
 - **Fade transitions** between all menus.
 - **Line clear & game over animations.**
 
+## What's New in 2.1
+
+- **Professional 3D blocks** — Gradient fill with gloss highlight and edge outlines.
+- **Evil Face** — Hidden easter egg that appears every 4 levels during transitions.
+- **Per-level color tinting** — Subtle hue shifts as you progress.
+- **Colored line clear particles** — Explosions now use the actual block colors.
+- **Mouse-driven effects** — Particles respond to mouse movement.
+- **Settings persistence fix** — Saves reliably regardless of working directory.
+- **Crash fixes** — Resolved `UnboundLocalError` during level transitions and random freezes from excessive surface allocations.
+- **Self-contained AppImage** — Bundles Python 3.12 + Pygame 2.6.1 with all dependencies.
+
 ## Run from Source
 
 ```bash
-pip install pygame mutagen
-python TetraFusion_2.0.py
+pip install pygame
+python TetraFusion_2.1.py
 ```
 
 ## License
